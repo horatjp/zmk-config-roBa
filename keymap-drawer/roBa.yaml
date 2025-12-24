@@ -17,12 +17,12 @@ layers:
   - F
   - G
   - Sft+Gui+S
-  - ESCAPE
+  - '-'
   - H
   - J
   - {t: K, h: SCROLL}
   - L
-  - {t: ENTER, h: RIGHT CONTROL}
+  - {t: ENTER, h: LEFT CONTROL}
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
@@ -34,7 +34,7 @@ layers:
   - M
   - ','
   - .
-  - {t: /, h: RIGHT SHIFT}
+  - {t: /, h: LEFT SHIFT}
   - LCTRL
   - LEFT WIN
   - LEFT ALT
@@ -43,7 +43,7 @@ layers:
   - {t: SPACE, h: '6'}
   - {t: SPACE, h: MOUSE}
   - {t: BACKSPACE, h: ARROW}
-  - '-'
+  - ESCAPE
   NUM:
   - F11
   - F12
@@ -105,23 +105,23 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '|'
-  - '~'
+  - '*'
+  - /
   - ;
   - ':'
+  - '~'
+  - ^
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - +
-  - '*'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LCTRL
-  - '='
   - '-'
+  - '='
   - _
+  - '|'
   - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
