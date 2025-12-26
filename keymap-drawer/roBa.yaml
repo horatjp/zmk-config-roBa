@@ -355,3 +355,9 @@ layers:
 combos:
 - p: [0, 1]
   k: ESCAPE
+- p: [30, 31]
+  k: '&mkp MB1'
+- p: [31, 32]
+  k: '&mkp MB2'
+- p: [30, 32]
+  k: '&mkp MB3'
