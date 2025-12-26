@@ -28,8 +28,8 @@ layers:
   - C
   - V
   - B
-  - {t: INTERNATIONAL 5, h: OTHER}
-  - {t: INTERNATIONAL 4, h: OTHER}
+  - {t: INTERNATIONAL 5, h: LEFT SHIFT}
+  - {t: INTERNATIONAL 4, h: RIGHT SHIFT}
   - N
   - M
   - ','
@@ -43,49 +43,49 @@ layers:
   - LEFT SHIFT
   - {t: BACKSPACE, h: MOUSE}
   - {t: ENTER, h: ARROW}
-  - ESCAPE
+  - DELETE
   NUM:
-  - F11
-  - F12
-  - F13
-  - F14
-  - F15
-  - +
-  - '7'
-  - '8'
-  - '9'
-  - '='
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '-'
-  - '4'
-  - '5'
-  - '6'
-  - '0'
   - F1
   - F2
   - F3
   - F4
   - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
   - {t: ▽, type: trans}
-  - /
+  - {t: ▽, type: trans}
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - F11
+  - F12
+  - F13
+  - F14
+  - F15
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '*'
   - '1'
   - '2'
   - '3'
-  - {t: ▽, type: trans}
+  - '-'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - DELETE
+  - BACKSPACE
   - {t: ▽, type: trans}
   - DELETE
   SYMBOL:
@@ -111,15 +111,15 @@ layers:
   - '{'
   - '}'
   - '?'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - +
+  - '-'
   - '='
+  - +
+  - '*'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '"'
+  - ''''
   - '['
   - ']'
   - /
@@ -129,7 +129,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - DELETE
+  - BACKSPACE
   - {t: ▽, type: trans}
   - \
   ARROW:
@@ -336,7 +336,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -353,13 +353,5 @@ layers:
   - {t: ▽, type: trans}
   - DELETE
 combos:
-- p: [11, 12]
-  k: TAB
-- p: [12, 13]
-  k: Sft+TAB
-- p: [11, 10]
-  k: '&to_layer_0 INT_MUHENKAN'
-- p: [20, 21]
-  k: '"'
-- p: [24, 25]
-  k: '='
+- p: [0, 1]
+  k: ESCAPE
