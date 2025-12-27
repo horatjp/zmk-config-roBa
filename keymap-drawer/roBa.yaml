@@ -28,8 +28,8 @@ layers:
   - C
   - V
   - B
-  - {t: INTERNATIONAL 5, h: LEFT SHIFT}
-  - {t: INTERNATIONAL 4, h: RIGHT SHIFT}
+  - {t: INTERNATIONAL 5, h: NUM}
+  - {t: INTERNATIONAL 4, h: NUM}
   - N
   - M
   - ','
@@ -40,21 +40,21 @@ layers:
   - LEFT ALT
   - {t: SPACE, h: NUM}
   - {t: TAB, h: SYMBOL}
-  - LEFT SHIFT
-  - {t: BACKSPACE, h: MOUSE}
+  - {t: BACKSPACE, h: SYMBOL}
+  - {t: BACKSPACE, h: SYMBOL}
   - {t: ENTER, h: ARROW}
   - DELETE
   NUM:
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
   - '1'
   - '2'
   - '3'
@@ -66,23 +66,23 @@ layers:
   - '7'
   - '8'
   - '9'
-  - '0'
+  - '-'
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - {type: held}
+  - {t: ▽, type: trans}
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
   - F11
   - F12
   - F13
-  - F14
-  - F15
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '*'
-  - '1'
-  - '2'
-  - '3'
-  - '-'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BACKSPACE
@@ -99,30 +99,30 @@ layers:
   - (
   - )
   - '@'
-  - '|'
-  - ^
-  - '~'
-  - '`'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ;
   - ':'
-  - '{'
-  - '}'
-  - '?'
-  - '-'
-  - '='
-  - +
-  - '*'
+  - ;
+  - '~'
+  - '|'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '"'
   - ''''
+  - '{'
+  - '}'
+  - '-'
+  - '*'
+  - +
+  - ^
+  - \
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - _
+  - '`'
   - '['
   - ']'
-  - /
+  - '='
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -131,7 +131,7 @@ layers:
   - {t: ▽, type: trans}
   - BACKSPACE
   - {t: ▽, type: trans}
-  - \
+  - DELETE
   ARROW:
   - ESCAPE
   - Ctl+Sft+TAB
@@ -164,7 +164,7 @@ layers:
   - )
   - Alt+Sft+TAB
   - Gui+Ctl+LEFT
-  - Gui+Sft+S
+  - {t: ▽, type: trans}
   - Gui+Ctl+RIGHT
   - AltGr+TAB
   - LEFT CONTROL
@@ -173,7 +173,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - DELETE
+  - BACKSPACE
   - {type: held}
   - DELETE
   MOUSE:
@@ -183,21 +183,23 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp MB3'
   - '&mkp MB3'
   - {t: ▽, type: trans}
-  - BACKSPACE
+  - {t: ▽, type: trans}
   - {t: LCTRL, h: LCTRL}
-  - {t: LSHIFT, h: LSHIFT}
-  - {t: LALT, h: LALT}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp MB4'
   - '&mkp MB1'
   - {t: ▽, type: trans}
   - '&mkp MB2'
+  - '&mkp MB5'
+  - {t: LEFT SHIFT, h: LEFT SHIFT}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -217,9 +219,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
-  - DELETE
   SCROLL:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -352,6 +352,50 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - DELETE
+  '8':
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
 combos:
 - p: [0, 1]
   k: ESCAPE
