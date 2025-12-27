@@ -27,24 +27,9 @@
     combos {
         compatible = "zmk,combos";
 
-        tab {
+        escape {
             bindings = <&kp ESCAPE>;
             key-positions = <0 1>;
-        };
-
-        leftclickj {
-            bindings = <&mkp MB1>;
-            key-positions = <30 31>;
-        };
-
-        rightclick {
-            bindings = <&mkp MB2>;
-            key-positions = <31 32>;
-        };
-
-        middleclickj {
-            bindings = <&mkp MB3>;
-            key-positions = <30 32>;
         };
     };
 
