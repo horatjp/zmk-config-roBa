@@ -15,13 +15,13 @@
 
 / {
     trackball_listener {
-        input-processors = <&zip_mouse_layer 4 800>;
+        input-processors = <&zip_mouse_layer 4 10000>;
     };
 
     mkp_input_listener {
         compatible = "zmk,input-listener";
         device = <&mkp>;
-        input-processors = <&zip_mouse_layer 4 800>;
+        input-processors = <&zip_mouse_layer 4 10000>;
     };
 
     combos {
