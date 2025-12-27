@@ -9,21 +9,8 @@
 };
 
 &trackball {
-    // automouse-layer = <4>;
-
+    input-processors = <&zip_mouse_layer>;
     scroll-layers = <5>;
-
-    // arrows {
-    //     layers = <3>;
-    //     bindings =
-    //         <&kp RIGHT_ARROW>,
-    //         <&kp LEFT_ARROW>,
-    //         <&kp UP_ARROW>,
-    //         <&kp DOWN_ARROW>;
-    //     tick = <10>;
-    //     wait-ms = <5>;
-    //     tap-ms = <5>;
-    // };
 };
 
 / {
@@ -61,6 +48,28 @@
     };
 
     behaviors {
+        // Auto Mouse Layer (Input Processor)
+
+        zip_mouse_layer: zip_mouse_layer {
+            compatible = "zmk,input-processor-temp-layer";
+            #input-processor-cells = <0>;
+            time-to-live-ms = <800>;  // Extended for double-click and drag support
+            require-prior-idle-ms = <200>;
+            layers = <4>;
+            excluded-positions = <0 1 2 3 4 5 6 8 13 14 15 16 17 19 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38>;
+        };
+
+        // Modifier key behavior for mouse layer (tap: exit AML, hold: keep AML)
+
+        mt_mouse: mod_tap_mouse {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "balanced";
+            tapping-term-ms = <200>;
+            bindings = <&kp>, <&kp>;
+            hold-trigger-on-release;
+        };
+
         // Layout Shift behaviors (embedded from zmk-layout-shift module)
 
         kpls: key_press_layout_shift {
@@ -162,10 +171,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &mkp MB3  &trans    &kp BACKSPACE
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &trans    &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &kp DELETE
+&trans           &trans     &trans     &trans  &trans                      &trans  &trans    &mkp MB3  &trans    &kp BACKSPACE
+&mt_mouse LCTRL LCTRL  &mt_mouse LSHIFT LSHIFT  &mt_mouse LALT LALT  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &trans    &mkp MB2  &trans
+&trans           &trans     &trans     &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
+&trans           &trans     &trans     &trans  &trans  &trans      &trans  &trans                                &kp DELETE
             >;
         };
 
