@@ -2,6 +2,7 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
+#include <input/processors.dtsi>
 
 &mt {
     flavor = "balanced";
@@ -9,8 +10,13 @@
 };
 
 &trackball {
-    automouse-layer = <4>;
     scroll-layers = <5>;
+};
+
+/ {
+    trackball_listener {
+        input-processors = <&zip_temp_layer 4 800>;
+    };
 };
 
 / {
