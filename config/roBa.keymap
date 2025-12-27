@@ -18,6 +18,12 @@
         input-processors = <&zip_mouse_layer 4 800>;
     };
 
+    mkp_input_listener {
+        compatible = "zmk,input-listener";
+        device = <&mkp>;
+        input-processors = <&zip_mouse_layer 4 800>;
+    };
+
     combos {
         compatible = "zmk,combos";
 
