@@ -9,7 +9,7 @@
 };
 
 &trackball {
-    input-processors = <&zip_mouse_layer 4 800>;
+    automouse-layer = <4>;
     scroll-layers = <5>;
 };
 
@@ -48,13 +48,6 @@
     };
 
     behaviors {
-        // Auto Mouse Layer (Input Processor)
-
-        zip_mouse_layer: zip_mouse_layer {
-            compatible = "zmk,input-processor-temp-layer";
-            #input-processor-cells = <2>;
-        };
-
         // Modifier key behavior for mouse layer (tap: exit AML, hold: keep AML)
 
         mt_mouse: mod_tap_mouse {
