@@ -58,6 +58,7 @@
             compatible = "zmk,input-processor-temp-layer";
             #input-processor-cells = <2>;
             require-prior-idle-ms = <200>;
+            excluded-positions = <7 18 19 20>;
         };
 
         // Modifier key behavior for mouse layer (tap: exit AML, hold: keep AML)
