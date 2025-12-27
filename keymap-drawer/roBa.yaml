@@ -187,9 +187,9 @@ layers:
   - '&mkp MB3'
   - {t: ▽, type: trans}
   - BACKSPACE
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: LCTRL, h: LCTRL}
+  - {t: LSHIFT, h: LSHIFT}
+  - {t: LALT, h: LALT}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
