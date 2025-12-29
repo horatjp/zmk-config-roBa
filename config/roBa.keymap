@@ -73,6 +73,20 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
         };
+
+        // JIS配列対応: &kp を layout-shift 版に置き換え
+        // https://github.com/kot149/zmk-layout-shift
+        original_key_press: original_key_press {
+            compatible = "zmk,behavior-key-press";
+            #binding-cells = <1>;
+            label = "KEY_PRESS";
+        };
+
+        kp: key_press {
+            compatible = "zmk,behavior-layout-shift-key-press";
+            #binding-cells = <1>;
+            label = "LAYOUT_SHIFT_KEY_PRESS";
+        };
     };
 
     keymap {
