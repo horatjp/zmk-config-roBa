@@ -29,6 +29,20 @@ Input Processor方式を採用しており、以下の機能があります：
 | 誤爆防止 | 200ms | キー入力直後のカーソル移動では発動しない |
 | 除外キー | マウスボタン | マウスボタンを押してもレイヤーは解除されない |
 
+## Mod-Tap / Layer-Tap 設定
+
+`&mt`（mod-tap）と `&lt`（layer-tap）に以下の設定を適用しています：
+
+| 設定 | 値 | 説明 |
+|------|-----|------|
+| flavor | balanced | ホールド/タップの判定方式 |
+| tapping-term-ms | 150ms | ホールド判定までの時間（デフォルト200ms） |
+| quick-tap-ms | 150ms | 連続タップ時に即タップとして認識する間隔 |
+
+- **balanced**: 他のキーを押すとホールド、離すとタップとして判定
+- **tapping-term-ms**: 短めに設定することで素早いモディファイア発動が可能
+- **quick-tap-ms**: 素早い連続入力（例: "aa"）がしやすくなる
+
 ## Keymap
 
 <img src="keymap-drawer/roBa.svg" >
