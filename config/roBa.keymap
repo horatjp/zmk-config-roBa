@@ -109,9 +109,9 @@
 
         ARROW {
             bindings = <
-&kp LC(LS(TAB))             &kp LC(LS(PAGE_UP))     &kp UP_ARROW    &kp LC(PAGE_DOWN)        &kp LC(TAB)                      &kp LS(LC(TAB))  &kp PAGE_UP       &kp UP_ARROW  &kp PAGE_DOWN      &kp LC(TAB)
+&kp LC(LS(TAB))             &kp PAGE_UP             &kp UP_ARROW    &kp PAGE_DOWN            &kp LC(TAB)                      &kp LS(LC(TAB))  &kp PAGE_UP       &kp UP_ARROW  &kp PAGE_DOWN      &kp LC(TAB)
 &mt LEFT_CONTROL HOME       &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END      &trans      &trans  &kp HOME         &kp LEFT_ARROW    &kp DOWN      &kp RIGHT          &mt RIGHT_CONTROL END
-&mt LEFT_SHIFT LS(LA(TAB))  &kp LG(LS(LEFT_ARROW))  &kp SPACE       &kp LG(LS(RIGHT_ARROW))  &kp LA(TAB)  &trans      &trans  &kp LA(LS(TAB))  &kp LG(LC(LEFT))  &kp SPACE     &kp LG(LC(RIGHT))  &mt LEFT_SHIFT RA(TAB)
+&mt LEFT_SHIFT LS(LA(TAB))  &kp LG(LC(LEFT_ARROW))  &kp SPACE       &kp LG(LC(RIGHT_ARROW))  &kp LA(TAB)  &trans      &trans  &kp LA(LS(TAB))  &kp LG(LC(LEFT))  &kp SPACE     &kp LG(LC(RIGHT))  &mt LEFT_SHIFT RA(TAB)
 &trans                      &trans                  &trans          &trans                   &trans       &trans      &trans  &trans                                                              &trans
             >;
 
