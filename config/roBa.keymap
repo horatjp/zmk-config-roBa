@@ -33,9 +33,7 @@
 };
 
 / {
-    trackball_listener {
-        input-processors = <&zip_mouse_layer 4 10000>;
-    };
+    trackball_listener { input-processors = <&zip_mouse_layer 4 10000>; };
 
     mkp_input_listener {
         compatible = "zmk,input-listener";
@@ -63,6 +61,7 @@
 
     behaviors {
         // Auto Mouse Layer (Input Processor)
+
         zip_mouse_layer: zip_mouse_layer {
             compatible = "zmk,input-processor-temp-layer";
             #input-processor-cells = <2>;
@@ -118,10 +117,10 @@
 
         NUMBER {
             bindings = <
-&kp F11       &kp F12       &kp F13       &kp F14       &kp F15                           &trans        &trans        &trans        &trans        &kp MINUS
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &trans      &trans  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-&kp F1        &kp F2        &kp F3        &kp F4        &kp F5        &trans      &trans  &kp F6        &kp F7        &kp F8        &kp F9        &kp F10
-&trans        &trans        &trans        &trans        &trans        &trans      &trans  &trans                                                  &trans
+&kp F11       &kp F12       &kp F13       &kp F14       &kp F15                                &trans        &trans        &trans        &trans        &kp MINUS
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &trans       &trans      &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
+&kp F1        &kp F2        &kp F3        &kp F4        &kp F5        &trans       &trans      &kp F6        &kp F7        &kp F8        &kp F9        &kp F10
+&trans        &trans        &trans        &trans        &trans        &kp DEL      &kp DELETE  &trans                                                  &trans
             >;
         };
 
