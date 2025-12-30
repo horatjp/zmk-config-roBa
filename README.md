@@ -1,5 +1,60 @@
 # zmk-config-roBa
 
+roBa キーボード用の ZMK ファームウェア設定リポジトリです。
+
+## 概要
+
+| 項目 | 内容 |
+|------|------|
+| キーボード | roBa（分割キーボード） |
+| キー数 | 43キー |
+| MCU | Seeeduino XIAO BLE (nRF52840) |
+| 接続 | Bluetooth |
+| トラックボール | PMW3610（右手側） |
+| ZMK Studio | 対応 |
+
+## ファームウェアの取得
+
+1. このリポジトリをフォークまたはクローン
+2. GitHub Actions が自動でビルドを実行
+3. Actions タブから最新のビルド成果物（`firmware.zip`）をダウンロード
+4. 解凍して `.uf2` ファイルを取得
+
+### ファームウェアファイル
+
+| ファイル | 用途 |
+|----------|------|
+| `roBa_R-seeeduino_xiao_ble.uf2` | 右手側（トラックボール側） |
+| `roBa_L-seeeduino_xiao_ble.uf2` | 左手側 |
+| `settings_reset-seeeduino_xiao_ble.uf2` | 設定リセット用 |
+
+## 書き込み方法
+
+### 初回セットアップ（両側に実施）
+
+1. PCとマイコンをUSB接続（電源オフのまま）
+2. リセットボタンを素早く2回押してブートローダーモードに入る
+3. `XIAO-SENSE` というドライブが表示される
+4. **まず `settings_reset-seeeduino_xiao_ble.uf2` をドラッグ＆ドロップ**
+5. 再度リセットボタンを2回押してブートローダーを起動
+6. メインファームウェア（`roBa_L` または `roBa_R`）をドラッグ＆ドロップ
+7. 左右両方に同じ手順を実施
+8. 電源を入れ、Bluetoothで「roBa」が認識されれば完了
+
+### ファームウェア更新時
+
+1. リセットボタンを素早く2回押してブートローダーモードに入る
+2. `XIAO-SENSE` というドライブが表示される
+3. 更新する側のファームウェア（`.uf2`）をドラッグ＆ドロップ
+
+## 依存モジュール
+
+| モジュール | 説明 |
+|------------|------|
+| [ZMK Firmware](https://github.com/zmkfirmware/zmk) | ZMK本体（v0.3-branch） |
+| [zmk-pmw3610-driver](https://github.com/kumamuk-git/zmk-pmw3610-driver) | PMW3610トラックボールドライバー |
+| [zmk-layout-shift](https://github.com/kot149/zmk-layout-shift) | JIS配列対応モジュール |
+
 ## JIS配列対応
 
 [zmk-layout-shift](https://github.com/kot149/zmk-layout-shift) を使用してJIS配列に対応しています。
