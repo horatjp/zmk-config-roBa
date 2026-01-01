@@ -7,6 +7,8 @@
 &mt {
     flavor = "balanced";
     quick-tap-ms = <150>;
+    require-prior-idle-ms = <150>;
+    hold-trigger-on-release;
 };
 
 &lt {
