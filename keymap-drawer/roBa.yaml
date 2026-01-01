@@ -309,5 +309,19 @@ layers:
   - {t: ▽, type: trans}
   - BT CLR ALL
 combos:
-- p: [0, 1]
+- p: [1, 2]
   k: ESCAPE
+- p: [11, 12]
+  k: TAB
+- p: [12, 13]
+  k: BACKSPACE
+- p: [6, 7]
+  k: ;
+- p: [7, 8]
+  k: '"'
+- p: [30, 31]
+  k: ':'
+- p: [23, 24]
+  k: INTERNATIONAL 5
+- p: [31, 32]
+  k: INTERNATIONAL 4
