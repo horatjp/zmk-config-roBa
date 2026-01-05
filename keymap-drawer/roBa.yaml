@@ -28,8 +28,8 @@ layers:
   - C
   - V
   - B
-  - {t: INTERNATIONAL 5, h: NUMBER}
-  - {t: INTERNATIONAL 4, h: NUMBER}
+  - {t: SPACE, h: NUMBER}
+  - {t: SPACE, h: NUMBER}
   - {t: N, h: ARROW}
   - M
   - ','
