@@ -30,7 +30,7 @@ layers:
   - B
   - {t: INTERNATIONAL 5, h: NUMBER}
   - {t: INTERNATIONAL 4, h: NUMBER}
-  - N
+  - {t: N, h: ARROW}
   - M
   - ','
   - .
@@ -39,10 +39,10 @@ layers:
   - LEFT WIN
   - LEFT ALT
   - TAB
-  - SPACE
+  - {t: SPACE, h: NUMBER}
   - {t: BACKSPACE, h: SYMBOL}
   - {t: BACKSPACE, h: SYMBOL}
-  - {t: ENTER, h: ARROW}
+  - {t: ENTER, h: SYMBOL}
   - DEL
   NUMBER:
   - F11
@@ -162,7 +162,7 @@ layers:
   - Alt+TAB
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Alt+Sft+TAB
+  - {t: Alt+Sft+TAB, type: held}
   - Gui+Ctl+LEFT
   - SPACE
   - Gui+Ctl+RIGHT
@@ -174,7 +174,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   MOUSE:
   - {t: ▽, type: trans}
