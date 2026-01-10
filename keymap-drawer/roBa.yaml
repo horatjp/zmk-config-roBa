@@ -28,8 +28,8 @@ layers:
   - C
   - V
   - B
-  - {t: SPACE, h: NUMBER}
-  - {t: SPACE, h: NUMBER}
+  - {t: SPACE, h: ARROW}
+  - {t: SPACE, h: ARROW}
   - {t: N, h: ARROW}
   - M
   - ','
@@ -72,7 +72,7 @@ layers:
   - F3
   - F4
   - F5
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F6
   - F7
@@ -86,7 +86,7 @@ layers:
   - {t: ▽, type: trans}
   - DEL
   - DELETE
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   SYMBOL:
   - '!'
@@ -160,9 +160,9 @@ layers:
   - SPACE
   - Gui+Ctl+RIGHT ARROW
   - Alt+TAB
+  - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: Alt+Sft+TAB, type: held}
+  - Alt+Sft+TAB
   - Gui+Ctl+LEFT
   - SPACE
   - Gui+Ctl+RIGHT
