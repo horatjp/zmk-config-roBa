@@ -90,6 +90,18 @@
             key-positions = <31 32>;
             require-prior-idle-ms = <150>;
         };
+
+        combo_eisu1 {
+            bindings = <&kp INTERNATIONAL_5>;
+            key-positions = <10 11>;
+            require-prior-idle-ms = <150>;
+        };
+
+        combo_kana1 {
+            bindings = <&kp INTERNATIONAL_4>;
+            key-positions = <21 20>;
+            require-prior-idle-ms = <150>;
+        };
     };
 
     macros {
