@@ -363,6 +363,18 @@ path.combo {
 <tspan x="645" dy="-0.6em" style="font-size: 64%">INTERNATIO…</tspan><tspan x="645" dy="1.2em" style="font-size: 64%">4</tspan>
 </text>
 </g>
+<g class="combo combopos-8">
+<rect rx="6" ry="6" x="42" y="95" width="28" height="26" class="combo"/>
+<text x="56" y="108" class="combo tap">
+<tspan x="56" dy="-0.6em" style="font-size: 64%">INTERNATIO…</tspan><tspan x="56" dy="1.2em" style="font-size: 64%">5</tspan>
+</text>
+</g>
+<g class="combo combopos-9">
+<rect rx="6" ry="6" x="687" y="95" width="28" height="26" class="combo"/>
+<text x="701" y="108" class="combo tap">
+<tspan x="701" dy="-0.6em" style="font-size: 64%">INTERNATIO…</tspan><tspan x="701" dy="1.2em" style="font-size: 64%">4</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 339)" class="layer-NUMBER">
@@ -576,6 +588,18 @@ path.combo {
 <tspan x="645" dy="-0.6em" style="font-size: 64%">INTERNATIO…</tspan><tspan x="645" dy="1.2em" style="font-size: 64%">4</tspan>
 </text>
 </g>
+<g class="combo combopos-8">
+<rect rx="6" ry="6" x="42" y="95" width="28" height="26" class="combo"/>
+<text x="56" y="108" class="combo tap">
+<tspan x="56" dy="-0.6em" style="font-size: 64%">INTERNATIO…</tspan><tspan x="56" dy="1.2em" style="font-size: 64%">5</tspan>
+</text>
+</g>
+<g class="combo combopos-9">
+<rect rx="6" ry="6" x="687" y="95" width="28" height="26" class="combo"/>
+<text x="701" y="108" class="combo tap">
+<tspan x="701" dy="-0.6em" style="font-size: 64%">INTERNATIO…</tspan><tspan x="701" dy="1.2em" style="font-size: 64%">4</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 678)" class="layer-SYMBOL">
@@ -786,6 +810,18 @@ path.combo {
 <rect rx="6" ry="6" x="631" y="134" width="28" height="26" class="combo"/>
 <text x="645" y="147" class="combo tap">
 <tspan x="645" dy="-0.6em" style="font-size: 64%">INTERNATIO…</tspan><tspan x="645" dy="1.2em" style="font-size: 64%">4</tspan>
+</text>
+</g>
+<g class="combo combopos-8">
+<rect rx="6" ry="6" x="42" y="95" width="28" height="26" class="combo"/>
+<text x="56" y="108" class="combo tap">
+<tspan x="56" dy="-0.6em" style="font-size: 64%">INTERNATIO…</tspan><tspan x="56" dy="1.2em" style="font-size: 64%">5</tspan>
+</text>
+</g>
+<g class="combo combopos-9">
+<rect rx="6" ry="6" x="687" y="95" width="28" height="26" class="combo"/>
+<text x="701" y="108" class="combo tap">
+<tspan x="701" dy="-0.6em" style="font-size: 64%">INTERNATIO…</tspan><tspan x="701" dy="1.2em" style="font-size: 64%">4</tspan>
 </text>
 </g>
 </g>
@@ -1042,6 +1078,18 @@ path.combo {
 <tspan x="645" dy="-0.6em" style="font-size: 64%">INTERNATIO…</tspan><tspan x="645" dy="1.2em" style="font-size: 64%">4</tspan>
 </text>
 </g>
+<g class="combo combopos-8">
+<rect rx="6" ry="6" x="42" y="95" width="28" height="26" class="combo"/>
+<text x="56" y="108" class="combo tap">
+<tspan x="56" dy="-0.6em" style="font-size: 64%">INTERNATIO…</tspan><tspan x="56" dy="1.2em" style="font-size: 64%">5</tspan>
+</text>
+</g>
+<g class="combo combopos-9">
+<rect rx="6" ry="6" x="687" y="95" width="28" height="26" class="combo"/>
+<text x="701" y="108" class="combo tap">
+<tspan x="701" dy="-0.6em" style="font-size: 64%">INTERNATIO…</tspan><tspan x="701" dy="1.2em" style="font-size: 64%">4</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1355)" class="layer-MOUSE">
@@ -1267,6 +1315,18 @@ path.combo {
 <tspan x="645" dy="-0.6em" style="font-size: 64%">INTERNATIO…</tspan><tspan x="645" dy="1.2em" style="font-size: 64%">4</tspan>
 </text>
 </g>
+<g class="combo combopos-8">
+<rect rx="6" ry="6" x="42" y="95" width="28" height="26" class="combo"/>
+<text x="56" y="108" class="combo tap">
+<tspan x="56" dy="-0.6em" style="font-size: 64%">INTERNATIO…</tspan><tspan x="56" dy="1.2em" style="font-size: 64%">5</tspan>
+</text>
+</g>
+<g class="combo combopos-9">
+<rect rx="6" ry="6" x="687" y="95" width="28" height="26" class="combo"/>
+<text x="701" y="108" class="combo tap">
+<tspan x="701" dy="-0.6em" style="font-size: 64%">INTERNATIO…</tspan><tspan x="701" dy="1.2em" style="font-size: 64%">4</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1694)" class="layer-SCROLL">
@@ -1489,6 +1549,18 @@ path.combo {
 <tspan x="645" dy="-0.6em" style="font-size: 64%">INTERNATIO…</tspan><tspan x="645" dy="1.2em" style="font-size: 64%">4</tspan>
 </text>
 </g>
+<g class="combo combopos-8">
+<rect rx="6" ry="6" x="42" y="95" width="28" height="26" class="combo"/>
+<text x="56" y="108" class="combo tap">
+<tspan x="56" dy="-0.6em" style="font-size: 64%">INTERNATIO…</tspan><tspan x="56" dy="1.2em" style="font-size: 64%">5</tspan>
+</text>
+</g>
+<g class="combo combopos-9">
+<rect rx="6" ry="6" x="687" y="95" width="28" height="26" class="combo"/>
+<text x="701" y="108" class="combo tap">
+<tspan x="701" dy="-0.6em" style="font-size: 64%">INTERNATIO…</tspan><tspan x="701" dy="1.2em" style="font-size: 64%">4</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 2033)" class="layer-6">
@@ -1708,6 +1780,18 @@ path.combo {
 <rect rx="6" ry="6" x="631" y="134" width="28" height="26" class="combo"/>
 <text x="645" y="147" class="combo tap">
 <tspan x="645" dy="-0.6em" style="font-size: 64%">INTERNATIO…</tspan><tspan x="645" dy="1.2em" style="font-size: 64%">4</tspan>
+</text>
+</g>
+<g class="combo combopos-8">
+<rect rx="6" ry="6" x="42" y="95" width="28" height="26" class="combo"/>
+<text x="56" y="108" class="combo tap">
+<tspan x="56" dy="-0.6em" style="font-size: 64%">INTERNATIO…</tspan><tspan x="56" dy="1.2em" style="font-size: 64%">5</tspan>
+</text>
+</g>
+<g class="combo combopos-9">
+<rect rx="6" ry="6" x="687" y="95" width="28" height="26" class="combo"/>
+<text x="701" y="108" class="combo tap">
+<tspan x="701" dy="-0.6em" style="font-size: 64%">INTERNATIO…</tspan><tspan x="701" dy="1.2em" style="font-size: 64%">4</tspan>
 </text>
 </g>
 </g>

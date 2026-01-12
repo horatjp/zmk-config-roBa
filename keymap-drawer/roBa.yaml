@@ -325,3 +325,7 @@ combos:
   k: INTERNATIONAL 5
 - p: [31, 32]
   k: INTERNATIONAL 4
+- p: [10, 11]
+  k: INTERNATIONAL 5
+- p: [21, 20]
+  k: INTERNATIONAL 4
