@@ -315,17 +315,17 @@ combos:
   k: TAB
 - p: [12, 13]
   k: BACKSPACE
-- p: [6, 7]
-  k: ;
-- p: [7, 8]
-  k: '"'
-- p: [30, 31]
-  k: ':'
 - p: [23, 24]
   k: INTERNATIONAL 5
 - p: [31, 32]
   k: INTERNATIONAL 4
-- p: [10, 11]
+- p: [25, 24]
   k: INTERNATIONAL 5
-- p: [21, 20]
+- p: [30, 31]
   k: INTERNATIONAL 4
+- p: [7, 8]
+  k: ESCAPE
+- p: [19, 20]
+  k: TAB
+- p: [18, 19]
+  k: BACKSPACE
