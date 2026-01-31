@@ -24,8 +24,8 @@ layers:
   - L
   - {t: '-', h: RIGHT CONTROL}
   - {t: Z, h: LEFT SHIFT}
-  - X
-  - C
+  - {t: X, h: LEFT WIN}
+  - {t: C, h: LEFT ALT}
   - V
   - B
   - {t: SPACE, h: ARROW}
