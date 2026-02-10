@@ -32,8 +32,8 @@ layers:
   - {t: SPACE, h: ARROW}
   - {t: N, h: ARROW}
   - M
-  - ','
-  - .
+  - {t: ',', h: RIGHT ALT}
+  - {t: ., h: RIGHT WIN}
   - {t: /, h: RIGHT SHIFT}
   - LCTRL
   - LEFT WIN
@@ -43,7 +43,7 @@ layers:
   - {t: BACKSPACE, h: SYMBOL}
   - {t: BACKSPACE, h: SYMBOL}
   - {t: ENTER, h: NUMBER}
-  - DEL
+  - ENTER
   NUMBER:
   - F11
   - F12
