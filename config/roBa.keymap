@@ -44,18 +44,18 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_esc {
+        combo_esc_l {
             bindings = <&kp ESCAPE>;
             key-positions = <1 2>;
         };
 
-        combo_tab {
+        combo_tab_l {
             bindings = <&kp TAB>;
             key-positions = <11 12>;
             require-prior-idle-ms = <150>;
         };
 
-        combo_backspace {
+        combo_backspace_l {
             bindings = <&kp BACKSPACE>;
             key-positions = <12 13>;
             require-prior-idle-ms = <150>;
@@ -70,18 +70,6 @@
         combo_kana {
             bindings = <&kp INTERNATIONAL_4>;
             key-positions = <31 32>;
-            require-prior-idle-ms = <150>;
-        };
-
-        combo_eisu1 {
-            bindings = <&kp INTERNATIONAL_5>;
-            key-positions = <25 24>;
-            require-prior-idle-ms = <150>;
-        };
-
-        combo_kana1 {
-            bindings = <&kp INTERNATIONAL_4>;
-            key-positions = <30 31>;
             require-prior-idle-ms = <150>;
         };
 
@@ -100,6 +88,26 @@
             bindings = <&kp BACKSPACE>;
             key-positions = <18 19>;
             require-prior-idle-ms = <150>;
+        };
+
+        colon_l {
+            bindings = <&kp COLON>;
+            key-positions = <2 3>;
+        };
+
+        colon_r {
+            bindings = <&kp COLON>;
+            key-positions = <7 6>;
+        };
+
+        semicolon_l {
+            bindings = <&kp SEMICOLON>;
+            key-positions = <25 24>;
+        };
+
+        semicolon_r {
+            bindings = <&kp SEMICOLON>;
+            key-positions = <31 30>;
         };
     };
 
