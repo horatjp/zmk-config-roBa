@@ -319,13 +319,17 @@ combos:
   k: INTERNATIONAL 5
 - p: [31, 32]
   k: INTERNATIONAL 4
-- p: [25, 24]
-  k: INTERNATIONAL 5
-- p: [30, 31]
-  k: INTERNATIONAL 4
 - p: [7, 8]
   k: ESCAPE
 - p: [19, 20]
   k: TAB
 - p: [18, 19]
   k: BACKSPACE
+- p: [2, 3]
+  k: ':'
+- p: [7, 6]
+  k: ':'
+- p: [25, 24]
+  k: ;
+- p: [31, 30]
+  k: ;
