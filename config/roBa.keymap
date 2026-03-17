@@ -231,5 +231,18 @@
 &trans   &trans        &trans        &trans        &trans  &trans      &trans       &trans                                                  &bt BT_CLR_ALL
             >;
         };
+
+        MAC {
+            // Mac用レイヤー（BTプロファイル切替時に自動で有効化）
+            // Macとの違い: Ctrl <-> Cmd(GUI)。Alt=Option はそのまま
+            bindings = <
+&trans              &trans              &trans  &trans  &trans                      &trans  &trans  &trans  &trans                    &trans
+&mt LEFT_GUI A      &trans              &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans                    &mt RIGHT_GUI MINUS
+&trans              &mt LEFT_CONTROL X  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &mt RIGHT_CONTROL PERIOD  &trans
+&kp LEFT_GUI        &kp LEFT_CONTROL    &trans  &trans  &trans  &trans      &trans  &trans                                            &trans
+            >;
+
+            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
+        };
     };
 };
