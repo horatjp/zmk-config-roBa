@@ -6,15 +6,15 @@
 
 // Layer numbers
 // 0: DEFAULT (Windows)
-// 1: NUMBER
-// 2: SYMBOL
-// 3: ARROW
-// 4: MOUSE
-// 5: SCROLL
-// 6: FUNCTION/BT
-// 7: MAC
+// 1: MAC
+// 2: NUMBER
+// 3: SYMBOL
+// 4: ARROW
+// 5: MOUSE
+// 6: SCROLL
+// 7: BT
 
-#define MAC_LAYER 7
+#define MAC_LAYER 1
 
 static void update_os_layers(uint8_t profile_index) {
     switch (profile_index) {
