@@ -18,12 +18,11 @@
 
 static void update_os_layers(uint8_t profile_index) {
     switch (profile_index) {
+    case 0:
     case 2:
-        // Mac
         zmk_keymap_layer_activate(MAC_LAYER);
         break;
     default:
-        // Windows (profile 0, 1) or others
         zmk_keymap_layer_deactivate(MAC_LAYER);
         break;
     }
