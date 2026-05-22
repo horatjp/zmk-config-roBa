@@ -165,7 +165,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        DEFAULT {
+        WIN {
             // layer 0
 
             bindings = <

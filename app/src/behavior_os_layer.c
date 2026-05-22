@@ -5,7 +5,7 @@
 #include <zmk/keymap.h>
 
 // Layer numbers
-// 0: DEFAULT (Windows)
+// 0: WIN
 // 1: MAC
 // 2: NUMBER
 // 3: SYMBOL
@@ -20,6 +20,7 @@ static void update_os_layers(uint8_t profile_index) {
     switch (profile_index) {
     case 0:
     case 2:
+    case 4:
         zmk_keymap_layer_activate(MAC_LAYER);
         break;
     default:
