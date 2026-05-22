@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: roBa}
 layers:
-  DEFAULT:
+  WIN:
   - Q
   - W
   - E
@@ -17,7 +17,7 @@ layers:
   - F
   - G
   - Sft+Gui+S
-  - {t: ESCAPE, h: '7'}
+  - {t: ESCAPE, h: DEVICE}
   - H
   - J
   - {t: K, h: SCROLL}
@@ -40,10 +40,10 @@ layers:
   - LEFT ALT
   - TAB
   - {t: SPACE, h: SYMBOL}
-  - {t: BACKSPACE, h: SYMBOL}
-  - {t: BACKSPACE, h: SYMBOL}
+  - {t: BACKSPACE, h: ARROW}
+  - {t: BACKSPACE, h: ARROW}
   - {t: ENTER, h: NUMBER}
-  - ENTER
+  - {t: ENTER, h: DEVICE}
   MAC:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -308,7 +308,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  '7':
+  DEVICE:
   - '&tog_ls'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -330,7 +330,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BT CLR
   - {t: ▽, type: trans}
   - '1'
   - '2'
@@ -342,16 +342,16 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BT CLR
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - BT CLR ALL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
 combos:
 - p: [1, 2]
   k: ESCAPE
