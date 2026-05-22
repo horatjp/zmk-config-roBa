@@ -249,8 +249,8 @@
             >;
         };
 
-        layer_7 {
-            // layer 7: BT
+        DEVICE {
+            // layer 7: DEVICE
 
             bindings = <
 &tog_ls  &trans        &trans        &trans        &trans                           &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4

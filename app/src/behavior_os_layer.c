@@ -12,7 +12,7 @@
 // 4: ARROW
 // 5: MOUSE
 // 6: SCROLL
-// 7: BT
+// 7: DEVICE
 
 #define MAC_LAYER 1
 
