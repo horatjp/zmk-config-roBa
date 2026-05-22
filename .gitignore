@@ -1,0 +1,28 @@
+# West / Zephyr
+_west/
+.west/
+build/
+
+# ビルド成果物
+firmware_builds/
+*.uf2
+*.bin
+*.hex
+*.elf
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# エディタ
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
