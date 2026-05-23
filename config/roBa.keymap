@@ -172,7 +172,7 @@
 &kp Q               &kp W           &kp E           &kp R    &kp T                                              &kp Y        &kp U  &kp I                &kp O                 &kp P
 &mt LEFT_CONTROL A  &kp S           &kp D           &kp F    &kp G        &kp LS(LG(S))        &lt 7 ESCAPE     &kp H        &kp J  &lt 6 K              &kp L                 &mt RIGHT_CONTROL MINUS
 &mt LEFT_SHIFT Z    &mt LEFT_WIN X  &mt LEFT_ALT C  &kp V    &kp B        &lt 4 SPACE          &lt 4 SPACE      &lt 4 N      &kp M  &mt RIGHT_ALT COMMA  &mt RIGHT_WIN PERIOD  &mt RIGHT_SHIFT SLASH
-&kp LCTRL           &kp LEFT_WIN    &kp LEFT_ALT    &kp TAB  &lt 3 SPACE  &lt 4 BACKSPACE      &lt 4 BACKSPACE  &lt 2 ENTER                                                    &lt 7 ENTER
+&lt 7 ENTER         &kp TAB         &kp LS(LG(S))   &kp TAB  &lt 3 SPACE  &lt 4 BACKSPACE      &lt 4 BACKSPACE  &lt 2 ENTER                                                    &lt 7 ENTER
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -186,7 +186,7 @@
 &trans          &trans              &trans  &trans  &trans                      &trans  &trans  &trans  &trans                    &trans
 &mt LEFT_GUI A  &trans              &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans                    &mt RIGHT_GUI MINUS
 &trans          &mt LEFT_CONTROL X  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &mt RIGHT_CONTROL PERIOD  &trans
-&kp LEFT_GUI    &kp LEFT_CONTROL    &trans  &trans  &trans  &trans      &trans  &trans                                            &trans
+&trans          &trans              &kp LS(LG(N4))  &trans  &trans  &trans      &trans  &trans                                            &trans
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
